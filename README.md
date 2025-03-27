@@ -27,7 +27,7 @@ This project is a basic replica of Udemy's homepage layout using only HTML and C
 1. Push the project to a GitHub repository.
 2. Go to the repository settings.
 3. Under the "Pages" section, set the source to the `main` branch and save.
-4. Your project will be available at `https://yourusername.github.io/udemy-clone/`.
+4. Your project will be available at `[https://yourusername.github.io/udemy-clone/](https://sathiyanarayanan53.github.io/Udemy-Clone/)`.
 
 ## License
 This project is open-source and free to use.
