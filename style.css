@@ -78,11 +78,14 @@ body{
 }
 .categories p{
     background-color:#9e38e1;
+    border:#9e38e1 solid 2px;
     color:white;
     border-radius:30px;
     padding:10px;
     width:200px;
     text-align:center;
+    transition: 1s;
+    cursor:pointer;
 }
 .categories p:hover{
     background-color:transparent;
@@ -106,6 +109,10 @@ body{
     top:10%;
     left:50px;
     animation-name:zoom;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite;
+    animation-timing-function: linear; */
 }
 @keyframes zoom {
     0% {transform: scale(0); opacity:0;}
