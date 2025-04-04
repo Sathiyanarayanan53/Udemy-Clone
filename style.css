@@ -105,6 +105,11 @@ body{
     position:absolute;
     top:10%;
     left:50px;
+    animation-name:zoom;
+}
+@keyframes zoom {
+    0% {transform: scale(0); opacity:0;}
+    100% {transform: scale(1); opacity:1;}
 }
 .recommended{
     padding:10px;
